@@ -24,27 +24,6 @@
 
 
 
-        }
-   
-    .secao-principal {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .freteBox {
-      background-color: #f0e5db;
-      padding: 10px;
-      border-radius: 6px;
-      font-size: 17px;
-      color: #8d745e;
-      border: 1px solid #d8cbbf;
-      text-align: center;
-      width: 100%;
-      margin-bottom: 20px;
-    }
-
-
    </style>
 </head>
 <body class="pagina-carrinho">
