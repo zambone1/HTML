@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>    
+<head>
+  
+  <style>
+    .finalizar-compra::before {
+        content: "";
+        position: relative;
+        border: none;
+        bottom: 0;
+        right: 0;
+        background: #f0e5db;
+        padding: 13px;
+        color: #8d745e;
+        padding-left: 10px;
+        border-color: #d8cbbfb8;
+        text-align: center;
+        border-radius: 6px;
+        font-size: 17px;
+        letter-spacing: -0.4px;
+        width: 100%;
+        font-size: 15px;
+}
+
+
+
+        }
+   
+    .secao-principal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .freteBox {
+      background-color: #f0e5db;
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 17px;
+      color: #8d745e;
+      border: 1px solid #d8cbbf;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+
+   </style>
+</head>
+<body class="pagina-carrinho">
+  <div class="conteiner-principal">
+    <div class="secao-principal row-fluid">
+        <div class="finalizar-compra">
+            <div id="NECESSAIRE" class="alert alert-success alert-geral freteBox span12" data-type="success">
+             <i class="fas fa-truck"></i>
+             <span>Nas Compras <strong>R$399,00 +</strong> Você ganhará <b>UMA LINDA NECESSAIRE TRANSPARENTE!</b></span>
+            </div>
+        </div>      
+    </div>
+  </div>
+</body>
+</html>
